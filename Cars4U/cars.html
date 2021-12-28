@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Cars4U | Cars</title>
+  <!-- FavIcon Link -->
+  <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon">
+  <!-- Bootstarp CSS link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Font Awesome CDN Link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- External CSS Libraries -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand logo" href="index.html">Cars4U<sup class="dot">.</sup><small class="our-dialog">Don't
+          Dream It, Drive It.</small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cars.html">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Testimonials.html">Testimonials</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-box">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <!-- ///// Latest Models Section Start ///// -->
+
+  <section class="latest-heading">
+    <h3 id="heading">Latest Models</h3>
+  </section>
+  <section class="latest-models container">
+    <div class="row">
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/2021 Lamborghini Aventador S.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Lamborghini Aventador</h5>
+          <p class="card-text">Price: $417,826 <small class="Prc-Bfr">$419,000</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+          onclick="prodModal('<strong>Price :</strong>  $417,826 <small class=Prc-Bfr>419,000$</small>' , '<strong>Name :</strong> 2021 Lamborghini Aventador S' , './images/2021 Lamborghini Aventador S.jpg' , 'Mechanically and externally updated over the regular Aventador, the S model is Lamborghinis ballistic mid-engine coupe producing 730 horsepower from its 6.5-liter V12 engine. Sending all of that power to four wheels, the missile will reach 62 mph in only 2.9 seconds, 124 mph in 8.8 seconds, and will top out at 217 mph. The exterior is as expressive as ever, whether youre confronted by the front-ends shark fin-like detailing or (more likely) watching the Aventador S whizz by from behind.')">View More</a>
+        </div>
+      </div>
+      
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/2021-Audi-TT-RS.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">2021 Audi TT RS</h5>
+          <p class="card-text">
+            Price: $72,500 - $82,495 <small class="Prc-Bfr">$80,550 - $90,500</small></p>
+            <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+            onclick="prodModal('<strong>Price :</strong>  $72,500 - $82,495 <small class=Prc-Bfr>$80,550 - $90,500</small>' , '<strong>Name :</strong> 2019 Ferrari 488 Spider' , './images/2021-Audi-TT-RS.jpg' , 'Audi loves to build oddball cars; the RS6 Avant is a gloriously rapid station wagon the likes of which we rarely get to see, and the Audi TT RS is just as unique with its 394-horsepower, 2.5-liter five-pot engine emanating sounds youd think could only come from a Group B rally car. This feisty little monster sees a hefty price increase for 2021 and adds many standard features, including the Black Optic package and blind-spot monitoring.')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/2022 Dodge Charger.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">2022 Dodge Charger</h5>
+          <p class="card-text">Price: $29,680 - $42,005 <small class="Prc-Bfr">$45,700 - $50,900</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+          onclick="prodModal('<strong>Price :</strong>  $249,900 <small class=Prc-Bfr>251,000$</small>' , '<strong>Name :</strong> 2019 Ferrari 488 Spider' , './images/2022 Dodge Charger.jpg' , 'Its going to be interesting to see what the muscle car segment in the USA will look like in ten years. For decades the recipe has always been big engines and rear-wheel-drive, as is the case with the Dodge Challenger, but what will the muscle car be like in a downsized world? Ford and Chevrolet have already given us a taste, offering small-capacity turbocharged four-pot engines in entry-level models. Dodge has stuck to its guns, however. The smallest engine available is 3.6 liters, nearly double what an entry-level Chevy offers.')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/White Ferrari.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">White Ferrari-458 Italia</h5>
+          <p class="card-text">Price: $249,900  <small class="Prc-Bfr">251,000$</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+          onclick="prodModal('<strong>Price :</strong>  $249,900 <small class=Prc-Bfr>251,000$</small>' , '<strong>Name :</strong> 2019 Ferrari 488 Spider' , './images/White Ferrari.jpg' , 'We are pleased to present this Stunning 2015 Ferrari 458 Italia Coupe finished in the Bianco Avus exterior paint over a Nero Leather interior w/ White Contrast Stitching.')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/Ferrari-458-italia.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">2019 Ferrari 488 Spider</h5>
+          <p class="card-text">Price: $270,000 <small class="Prc-Bfr">280,000$</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+          onclick="prodModal('<strong>Price :</strong>  $270,000 <small class=Prc-Bfr>280,000$</small>' , '<strong>Name :</strong> 2019 Ferrari 488 Spider' , './images/Ferrari-458-italia.jpg' , 'Less Roof More Speed')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/BMW 2 Series.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">BMW 2 Series</h5>
+          <p class="card-text">Price: $220,000 <small class="Prc-Bfr">222,000$</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+          onclick="prodModal('<strong>Price :</strong> $220,000 <small class=Prc-Bfr>222,000$</small>' , '<strong>Name :</strong> BMW 2 Series Gran Coupe' , './images/BMW 2 Series.jpg' , 'While the top-spec M Sport variant does have a sporty aesthetic appeal, for a few lakhs less, the Sport Line gets you almost all the same equipment, with only a few non-essential items missing. Moreover, its smaller 17-inch wheels and tyres will undoubtedly aid ride quality on our broken roads.')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/Ford.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Ford Mustang</h5>
+          <p class="card-text">Price: $115,015 <small class="Prc-Bfr">120,000$</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+            onclick="prodModal('<strong>Price :</strong> $115,015 <small class=Prc-Bfr>120,000$</small>' , '<strong>Name :</strong> Ford Mustang' , './images/Ford.jpg' , 'The Ford Mustang is one of the legends of the automotive world.')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/Audi.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Audi R8</h5>
+          <p class="card-text">Price: $153,500 <small class="Prc-Bfr">155,000$</small>
+            <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+            onclick="prodModal('<strong>Price :</strong> $153,500 <small class=Prc-Bfr>155,000$</small>' , '<strong>Name :</strong> Audi R8' , './images/Audi.jpg' , '<h4>A legendary sports car to own.</h4> The Audi R8 performance Coupe brings the racing-inspired performance you seek with uncompromised styling.')">View More</a>
+        </div>
+      </div>
+
+      <div class="car-img-div lambo-2-box card col-lg-3 col-md-6 col-sm-10">
+        <img src="./images/Yellow Lamborghini-2.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Lamborghini Aventador</h5>
+          <p class="card-text">Price: $200,500 <small class="Prc-Bfr">202,000$</small></p>
+          <a href="" class="my-btn" data-toggle="modal" data-target="#productModal"
+            onclick="prodModal('<strong>Price :</strong> $200,500 <small class=Prc-Bfr>202,000$</small>' , '<strong>Name :</strong> Lamborghini Aventador' , './images/Yellow Lamborghini-2.jpg' , 'This car is just so incredible')">View More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ///// Latest Models Section End ///// -->
+  <!-- Modal For Cards Start -->
+  <section class="modal fade" id="productModal">
+    <div class="modal-dialog myModal">
+        <div class="modal-content">
+                <header class="modal-header">
+                    <h6 class="modalLogo">Cars4U<sup class="dot">.</sup><small class="our-dialog">Don't
+                      Dream It, Drive It.</small></h6>
+                      <div data-dismiss="modal">
+                        <i class="close fas fa-times"></i>
+                      </div>
+                </header>
+                <section class="modal-body">
+                        
+                    <div class="row">
+                    <section class="col-lg-6 modal-img-section">
+                            <img id="modalImg" src="" width="100%" alt="">
+                    </section>
+                    <section class="col-lg-6">
+                        <p id="modalName"></p>
+                        <p id="modalPrice"></p>
+                        <h3>Specifications:</h3>
+                        <p id="modalDesc"></p>
+                        <button data-dismiss="modal" data-toggle="modal" data-target="#thanksModal" class="btn-grad" id="buyNow">Buy Now <i class="fal fa-cart-arrow-down"></i></button>
+                    </section>
+                    </div>
+                </section>
+                <footer class="modal-footer">
+                        <button data-dismiss="modal" class="btn btn-danger">close</button>
+                </footer>
+        </div>
+    </div>
+</section>
+  <!-- Modal For Cards End -->
+  <!-- Modal For Thanks Start -->
+  <section class="modal fade" id="thanksModal">
+    <div class="modal-dialog myThanksModal">
+        <div class="modal-content">
+                <header class="modal-header">
+                  <h6 class="modalLogo">Cars4U<sup class="dot">.</sup><small class="our-dialog">Don't
+                    Dream It, Drive It.</small></h6>
+                    <div data-dismiss="modal">
+                      <i class="close fas fa-times"></i>
+                    </div>
+                </header>
+                <section class="modal-body">
+                      <div class="thanksBox">
+                        <p>Thank You For Buying This Car</p>
+                      </div>
+                </section>
+                <footer class="modal-footer">
+                        <button data-dismiss="modal" class="btn btn-danger">close</button>
+                </footer>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+  <!-- Modal For Thanks End -->
+
+  <!-- Some Cards Start -->
+  <section class="hover-cards-box">
+    <div class="row">
+      <div class="">
+        
+      </div>
+    </div>
+  </section>
+  <!-- Some Cards End -->
+  
+  <!-- Footer Start -->
+    <footer class="footer">
+      <section class="container footer_inner_section">
+        <div class="footer-cta py-5">
+          <div class="row">
+            <div class="col-sm-6 col-xl-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find Us</h4>
+                  <span>Near Star Uniform Corner, Mithadar, Karachi </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone-alt"></i>
+                <div class="cta-text">
+                  <h4>Call Us</h4>
+                  <span>On +92-300-2168365 </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail Us</h4>
+                  <span>cars4u@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content py-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer-items">
+                <div class="footer-logo">
+                  <a href="./index.html">Cars4U <sup class="dot">.</sup></a>
+                </div>
+                <div class="footer-text">
+                  <p>Don't Dream it, <br> Drive it</p>
+                </div>
+                <div class="footer-social-icons">
+                  <span>Follow Us</span>
+                  <a href=""><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href=""><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href=""><i class="fab fa-instagram instagram-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-items">
+                <div class="footer-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./about.html">About us</a></li>
+                  <li><a href="./contact.html">Contact us</a></li>
+                  <li><a href="./cars.html">Cars Section</a></li>
+                  <li><a href="./testimonials.html">Testimonials</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-items">
+                <div class="footer-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text">
+                  <p>Subscribe to be the first to know about our latest makes.</p>
+                </div>
+                <div class="subscribe-form">
+                  <form>
+                    <input type="email" placeholder="Email Adress">
+                    <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="copyright-box">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>copyright &copy; <a href="./index.html">cars4u</a> 2021, All Rights Reserved</p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="./index.html">Home | </a></li>
+                  <li><a href="./index.html">Terms | </a></li>
+                  <li><a href="./index.html">Privacy | </a></li>
+                  <li><a href="./index.html">Policy | </a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  
+    <!-- Footer End -->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+  integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="app.js"></script>
+
+</html>

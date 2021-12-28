@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars4U</title>
+  <!-- FavIcon Link -->
+  <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand logo" href="index.html">Cars4U<sup class="dot">.</sup><small class="our-dialog">Don't
+          Dream It, Drive It.</small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cars.html">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Testimonials.html">Testimonials</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-box">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!-- <br>
+  <nav class="contact-links">
+    <ul>
+      <li><i class="fas fa-phone-square-alt"></i> Contact us on: 0321-0000000</li>
+      <li><i class="far fa-envelope"></i> Email us on: Cars4U@gmail.com</li>
+    </ul>
+  </nav> -->
+  <section class="hero">
+    <div class="img-div slider">
+      <img class="" src="./images/Slider-img-2_edited.jpg" alt="">
+      <img class="" src="./images/Slider-img-1_edited.jpg" alt="">
+      <img class="" src="./images/Slider-img-3_edited.jpg" alt="">
+      <img class="" src="./images/Mercedes Benz_edited.jpg" alt="">
+    </div>
+  </section>
+  <br>
+  <br>
+  <!-- /////Trending Models///// -->
+  <div class="Trending-models">
+    <div class="">
+      <h2 id="heading">Trending Models</h2>
+    </div>
+  </div>
+  <br>
+  <section class="trendBox">
+    <section class="Models-img container">
+      <div class="slider-2">
+        <div><img src="./images/Mercedes.jpg" width="100%" alt=""></div>
+        <div><img src="./images/Tesla.jpg" width="100%" alt=""></div>
+        <div><img src="./images/Toyota.jpg" width="100%" alt=""></div>
+        <div><img src="./images/Lamborghini.jpg" width="100%" alt=""></div>
+        <div><img src="./images/BMW-Luxury.jpg" width="100%" alt=""></div>
+        <div><img src="./images/Ford-Sports.jpg" width="100%" alt=""></div>
+      </div>
+      <br>
+      <div class="see-cars">
+        <button class="submit-btn" onclick="seeMore(this)">See More</button>
+      </div>
+    </section>
+    <br>
+  </section>
+  <br>
+  <!-- ////About Us//// -->
+  <div class="about-us">
+    <h2 id="heading">Who We Are</h2>
+  </div>
+  <section class="paraBox container-fluid">
+    <div class="about-para see-more">
+      <p><span><a href="index.html">Cars4U</a></span> Provides Amazing Super Cars <br> && We'll Provide You a Broad Range Of <br> Cars Here In Amazing
+        Discounts. So,<br> Get Ready To Get Your Dream Car.<br><br>
+      <button onclick="seeMore(this)" id="about-btn">Read More</button></p>
+    </div>
+  </section>
+
+  <!-- /// Home Cards Start -->
+  <section class="my-card-box">
+    <section class="myContainer">
+      <div class="mycard">
+        <div class="imgbx">
+          <img src="./images/2022 BMW 2 Series.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>2022 BMW 2</h2>
+          <p>Price: $40,350</p>
+        </div>
+      </div>
+      
+      <div class="mycard">
+        <div class="imgbx">
+          <img src="./images/BMW-Sedan.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>BMW Sedan</h2>
+          <p>Price: $100,350</p>
+        </div>
+      </div>
+      <div class="mycard">
+        <div class="imgbx">
+          <img src="./images/Yellow-BMW.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>Yellow BMW</h2>
+          <p>Price: $90,000</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- /// Home Cards End -->
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <section class="container footer_inner_section">
+      <div class="footer-cta py-5">
+        <div class="row">
+          <div class="col-sm-6 col-xl-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="cta-text">
+                <h4>Find Us</h4>
+                <span>Near Star Uniform Corner, Mithadar, Karachi </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-phone-alt"></i>
+              <div class="cta-text">
+                <h4>Call Us</h4>
+                <span>On +92-300-2168365 </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-envelope-open"></i>
+              <div class="cta-text">
+                <h4>Mail Us</h4>
+                <span>cars4u@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content py-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-items">
+              <div class="footer-logo">
+                <a href="./index.html">Cars4U <sup class="dot">.</sup></a>
+              </div>
+              <div class="footer-text">
+                <p>Don't Dream it, <br> Drive it</p>
+              </div>
+              <div class="footer-social-icons">
+                <span>Follow Us</span>
+                <a href=""><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a href=""><i class="fab fa-twitter twitter-bg"></i></a>
+                <a href=""><i class="fab fa-instagram instagram-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-items">
+              <div class="footer-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./cars.html">Cars Section</a></li>
+                <li><a href="./testimonials.html">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-items">
+              <div class="footer-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text">
+                <p>Subscribe to be the first to know about our latest makes.</p>
+              </div>
+              <div class="subscribe-form">
+                <form>
+                  <input type="email" placeholder="Email Adress">
+                  <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="copyright-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>copyright &copy; 2021, <a href="./index.html">cars4u</a> All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="./index.html">Home | </a></li>
+                <li><a href="./index.html">Terms | </a></li>
+                <li><a href="./index.html">Privacy | </a></li>
+                <li><a href="./index.html">Policy | </a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- Footer End -->
+</body>
+<!-- remember to make Fav-Icon -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+  integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="app.js"></script>
+
+</html>
